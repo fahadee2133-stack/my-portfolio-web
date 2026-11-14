@@ -48,7 +48,7 @@ h1{
 }
 
 #pera{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0%;
     padding: 0%;
     margin-left: 20px;
@@ -74,22 +74,24 @@ h1{
     border:2px solid rgb(173, 61, 1);
     font-size: 15px;
     color:rgb(156, 53, 39) ;
-    background-color: rgb(254, 145, 74);
+    background-color: black;
     width: 100px;
     height: 30px;
+    border-radius: 10px;
+    
 }
 
 #contact{
     border:2px solid rgb(173, 61, 1);
     font-size: 15px;
     color:rgb(156, 53, 39);
-    background-color: rgb(254, 145, 74);
+    background-color: black;
     width: 100px;
     height: 30px;
+    border-radius: 10px;
 }
 
 #about:hover{
-    background-color:rgba(254, 146, 74, 0.905) ;
     width: 110px;
     height: 35px;
     font-size: 20px;
@@ -97,9 +99,56 @@ h1{
 }
 
 #contact:hover{
-    background-color:rgba(254, 146, 74, 0.905) ;
+
     width: 110px;
     height: 35px;
     font-size: 20px;
     transition: 300ms;
+}
+
+#facebook{
+    position: relative;
+    width: 3vw;
+    height: 6vh;
+    top: 270px;
+    right: 400px;
+
+}
+
+#insta{
+    position: relative;
+    width: 3vw;
+    height: 6vh;
+     top: 274px;
+    right: 320px;
+}
+
+#github
+{
+ position: relative;
+    width: 3.5vw;
+    height: 6.5vh;
+    top: 274px;
+    right: 250px;
+}
+
+h2{
+    
+    color: rgb(253, 148, 0);
+    
+    
+}
+#intro{
+width: 250px;font-family: 'Montserrat', sans-serif;
+/* border: 2px solid orange; */
+color: rgb(253, 148, 0);
+position: relative;
+bottom: 690px;
+left: 100px;
+width: 300px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: xx-large;
+text-shadow: 2px 2px 0px black;
+
 }
